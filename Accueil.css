@@ -1,0 +1,43 @@
+body {
+    font-size: 20px;
+    background-image:url("Images/Test_Cadre.JPG");
+    background-repeat: no-repeat;
+    Background-position: center center;
+    line-height: 160px;
+    width: auto;
+    height: auto;
+    margin:0;
+  }
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-image:url("Accueil/Pseudo.png");
+      background-repeat: no-repeat;
+      Background-position: center center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+  }
+  
+  li {
+      float: left;
+  }
+  
+  li a {
+      display: block;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    color: rgb(255, 0, 0);
+  }
+  
+  .active {
+    color: rgb(0, 255, 34);
+  }
